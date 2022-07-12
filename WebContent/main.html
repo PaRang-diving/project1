@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body { min-width:1000px;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>thejoeungroup2main</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<div id='clock' style="border: 1px solid black; background-color: ghostwhite;">
+  		<script>
+    		function setClock()	{
+      			var now = new Date();
+      			var s = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+      			document.getElementById('clock').innerHTML = s;
+      			setTimeout('setClock()', 1000);
+    		}
+    		setClock();
+  		</script>
+	</div>
+	
+	<div id="wrapper">
+    	<div class="content">
+        	<div id="header">
+            	<h1><a href="#"><span>1st project</span>Group 2 Cafe &nbsp; <img src="./images/logo.png"></a></h1>
+            	
+                
+                <div id="menu">
+                	<ul>	
+                	    <li><a href="main.html">Home</a></li>
+                        <li><a href="introduce.html">About us</a></li>
+                        <li><a href="community_list.jsp">Community</a></li>
+                        <!-- blank 새창에서 열기 일단 없앰 -->
+                        <!-- <li><a href="community_list.jsp" target="_blank">Community</a></li> -->
+                        <li><a href="javascript:alert('준비중인 기능입니다.')">My account</a></li>
+                            
+                        <!-- blank 새창에서 열기 일단 없앰 -->
+                        <!-- <li><a href="qna_list.jsp" target="_blank">Q&A</a></li> -->
+                        <li><a href="qna_list.jsp">Q&A</a></li>
+                    </ul>
+             	</div>
+             </div>
+		</div>
+	</div>
+
+	<div class="side">
+	
+		<div class="rightside">
+    		<div id="login">
+    			<iframe src="log.html"></iframe>
+
+    		</div>
+		</div>
+
+    	<div class="leftside">
+          	<ul>
+            	<li>공모전
+            		<a href="https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=list" target="_blank">
+            		-웹/모바일/IT 공모전 알아보기</a>
+            	</li>
+            	<li>채용공고
+            		<a href="http://www.tjoeun.co.kr/front/job/recruit_list.asp" target="_blank">
+            		-웹/모바일/IT 채용공고</a>
+            	</li>	
+            	<li>시험일정
+            		<a href="http://www.tjoeun.co.kr/front/lecture/lecture_list.asp?pg=1&ci=3&job=0" target="_blank">
+            		-자격증, 시험일정</a>
+            	</li>
+            	<li>기타
+            		<a href="http://www.tjoeun.co.kr/front/lecture/lecture_list.asp?pg=1&ci=3&job=0" target="_blank">
+            		-더조은 홈페이지</a>
+            	</li>
+			</ul>
+		</div>
+
+    </div>
+			
+    
+	<section class="mainsct1">
+		<iframe title="메인게시판" src="community_list.jsp" width="70%" height="450"></iframe>
+	</section>    
+  
+
+
+<section class="mainsct2">
+  <table>
+    <caption>추천사이트</caption>
+    <tr>
+      <th id="kkolg">
+        <a href="https://developers.kakao.com/" target="_blank">
+          <img src="./images/kakaodev.png" alt="kakao" style="width:auto; height:50px;">
+        </a>
+      </th> 
+      <th id="okklg">
+        <a href="https://okky.kr/" target="_blank">
+          <img src="./images/OKKY.png" alt="OKKY" style="width:auto; height:50px;">
+        </a>
+      </th>
+      <th>
+        <a href="https://devstu.co.kr/howto" target="_blank">
+          <img src="./images/DEVSTU.png" alt="devstu" style="width:auto; height:50px;">
+        </a>
+      </th>
+      <th id="phplg">
+        <a href="https://phpschool.com/" target="_blank">
+          <img src="./images/top_logo.png" alt="phpschool" style="width:auto; height:50px;">
+        </a>
+      </th>
+  </tr>
+  </table>
+</section>
+
+<div id="footer">
+  <footer>
+		<a href="javascript:alert('준비중인 기능입니다.')">추천사이트</a>
+		<a href="qna_list.jsp" target="_blank">Q&A</a>
+		<a href="javascript:alert('준비중인 기능입니다.')">자료실</a>
+	</footer>
+</div>
+</body>
+</html>

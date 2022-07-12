@@ -1,0 +1,44 @@
+body {
+	background:#151d30;
+	font-size:12px;
+	font-family:arial, sans-serif;
+}
+
+table {
+	width:auto;
+	border-collapse: colapse;
+	text-align: center;
+}
+
+tr, th {
+	font-size: 10pt;
+	border: 1px solid #fffdbf;
+	height: 30px;
+	padding: 5px;
+}
+
+th {
+	background-color: #fffdbf;
+	color: #000000;
+	font-family: Georgia;
+}
+
+h1{
+	margin:43px 0 0 0px;
+	padding:0px 0 0 70px;
+	font-size:60px;
+	font-weight:bold;
+	font-family:"myriad pro";
+	color:#fff;
+}
+h3{
+	color:#fff;
+}
+td {
+	color:#ffffff;
+	padding: 10px;
+}
+a{
+	color:#97c1ff;
+	text-decoration-line: none;
+}
